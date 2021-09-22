@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 550px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*
+Code by Duarte Jamani 
+*/
+
+.cafe{
+  width:10%; 
+  height : 10%;
+ 
+  background-clip: border-box;
+
+}
+.iconavbar{
+  font-size: 20px;
+  color: #036CE4;
+ }
+
+.iconavbarInstagram{
+  
+  font-size: 20px;
+  width: 18px;
+  height: 18px;
+ }
+ .iconavbarTwitter{
+  font-size: 20px;
+  color: #1DA1F2;
+ }
+
+ .iconavbarLinkedin{
+  font-size: 20px;
+  color: #0077B5;
+
+ }
+
+ .text-justify {
+  text-align: justify !important;
+}
+.imgredonda{
+
+  height: 250px;
+  width: 170px;
+  border-radius: 50%;
+}
+.imgreduction5050{
+  height: 90px;
+  width: 100px;
+}
+.imgrection100120{
+  height: 100px;
+  width: 120px;
+}
